@@ -1,7 +1,6 @@
 import React from 'react'
 import { Navbar } from '../Navbar/Navbar.jsx'
 import { ItemNavbar } from '../../Components/ItemNavbar/ItemNavbar.jsx'
-import { InputFiltre } from '../../Components/InputFiltre/InputFiltre.jsx'
 
 export const Header = () => {
   return (
@@ -12,7 +11,6 @@ export const Header = () => {
           <ItemNavbar content="Cards" styles="mr-15"/>
           <ItemNavbar content="Gift" styles="mr-15"/>
           <ItemNavbar content="Home" styles="mr-15"/>
-          <InputFiltre/>
         </Navbar>
       </div>
     </header>
